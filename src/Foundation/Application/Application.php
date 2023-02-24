@@ -1,6 +1,6 @@
 <?php
 
-namespace KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Application;
+namespace Invertus\Laracore\Vendor\Foundation\Application;
 
 use DusanKasan\Knapsack\Collection;
 use Illuminate\Container\Container;
@@ -73,9 +73,9 @@ class Application extends Container implements ApplicationContract
 
     protected function bootstrap()
     {
-        $this->make(\KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Bootstrap\LoadsConfiguration::class)->bootstrap($this);
-        $this->make(\KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Bootstrap\RegisterProviders::class)->bootstrap($this);
-        $this->make(\KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Bootstrap\BootProviders::class)->bootstrap($this);
+        $this->make(\Invertus\Laracore\Vendor\Foundation\Bootstrap\LoadsConfiguration::class)->bootstrap($this);
+        $this->make(\Invertus\Laracore\Vendor\Foundation\Bootstrap\RegisterProviders::class)->bootstrap($this);
+        $this->make(\Invertus\Laracore\Vendor\Foundation\Bootstrap\BootProviders::class)->bootstrap($this);
     }
 
     /**

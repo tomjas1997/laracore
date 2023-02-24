@@ -1,6 +1,6 @@
 <?php
 
-namespace KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Bootstrap;
+namespace Invertus\Laracore\Vendor\Foundation\Bootstrap;
 
 use Illuminate\Contracts\Foundation\Application;
 

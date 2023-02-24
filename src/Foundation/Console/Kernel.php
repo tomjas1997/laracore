@@ -1,6 +1,6 @@
 <?php
 
-namespace KlarnaPayment\Module\LaraCore2\Vendor\LaravelCore\Foundation\Console;
+namespace Invertus\Laracore\Vendor\Foundation\Console;
 
 use Illuminate\Console\Application as Artisan;
 use Illuminate\Console\Command;
